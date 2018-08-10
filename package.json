@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --hot --inline --config ./config/webpack.dev.conf.js",
-    "build": "",
+    "build": "webpack --config ./config/webpack.prod.conf.js",
     "start": ""
   },
   "author": "pyj",
